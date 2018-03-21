@@ -1,0 +1,27 @@
+[CONV]
+load = False
+optimizer = adam
+loss = binary_crossentropy
+batch = 100
+epochs = 10
+
+[MLP]
+load = False
+optimizer = adam
+loss = binary_crossentropy
+batch = 100
+epochs = 10
+
+[REC]
+load = False
+optimizer = adam
+loss = binary_crossentropy
+batch = 100
+epochs = 200
+
+[CAT]
+load = False
+optimizer = sgd
+loss = categorical_crossentropy
+batch = 100
+epochs = 1000
